@@ -7,7 +7,7 @@ function RecipeDetails() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`https://recipe-hub-backend-i9at.onrender.com/api/recipes/${id}`)
+    fetch(`https://recipe-hub-backend-64bt.onrender.com/api/recipes/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setRecipe(data);

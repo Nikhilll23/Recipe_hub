@@ -16,7 +16,7 @@ function Home() {
   const fetchAllRecipes = async () => {
     try {
       const response = await fetch(
-        "https://recipe-hub-backend-i9at.onrender.com/api/recipes"
+        "https://recipe-hub-backend-64bt.onrender.com/api/recipes"
       );
       if (!response.ok) {
         throw new Error("Failed to fetch recipes");

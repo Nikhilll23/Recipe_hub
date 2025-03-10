@@ -22,7 +22,7 @@ const Dashboard = () => {
       const token = localStorage.getItem("token"); // Get auth token
 
       const response = await fetch(
-        "https://recipe-hub-backend-i9at.onrender.com/api/recipes/user/recipes",
+        "https://recipe-hub-backend-64bt.onrender.com/api/recipes/user/recipes",
         {
           headers: {
             "Content-Type": "application/json",
@@ -52,7 +52,7 @@ const Dashboard = () => {
 
     try {
       const response = await fetch(
-        `https://recipe-hub-backend-i9at.onrender.com/api/recipes/${id}`,
+        `https://recipe-hub-backend-64bt.onrender.com/api/recipes/${id}`,
         {
           method: "DELETE",
           headers: {

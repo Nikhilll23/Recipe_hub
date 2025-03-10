@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://recipe-hub-backend-i9at.onrender.com/api",
+  baseURL: "https://recipe-hub-backend-64bt.onrender.com/api",
 });
 
 // Automatically attach token
@@ -34,7 +34,7 @@ API.interceptors.response.use(
 
         // Request a new token
         const res = await axios.post(
-          "https://recipe-hub-backend-i9at.onrender.com/api/auth/refresh",
+          "https://recipe-hub-backend-64bt.onrender.com/api/auth/refresh",
           {
             token: refreshToken,
           }

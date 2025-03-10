@@ -23,7 +23,7 @@ const Login = () => {
 
     try {
       const res = await fetch(
-        "https://recipe-hub-backend-i9at.onrender.com/api/auth/login",
+        "https://recipe-hub-backend-64bt.onrender.com/api/auth/login",
         {
           method: "POST",
           headers: {

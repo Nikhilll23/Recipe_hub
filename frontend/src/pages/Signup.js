@@ -19,7 +19,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://recipe-hub-backend-i9at.onrender.com/api/auth/signup",
+        "https://recipe-hub-backend-64bt.onrender.com/api/auth/signup",
         {
           method: "POST",
           headers: {
