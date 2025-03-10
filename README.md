@@ -1,4 +1,4 @@
-# Recipe Hub
+# Foodie Haven
 
 Recipe Hub is a platform where users can create an account, upload their unique recipes with images, and explore recipes shared by others. It offers a well-structured design with different sections for easy navigation.
 
@@ -50,12 +50,12 @@ Recipe Hub is a platform where users can create an account, upload their unique 
 
 
 ## Contact
-For any inquiries, reach out at [vu1f2223083@pvppcoe.ac.in].
+For any inquiries, reach out at [vu1f2223065@pvppcoe.ac.in].
 
 
 
 
 ------------Deployed---------------
 
-frontend- https://recipe-hub-frontend.onrender.com
-backend- https://recipe-hub-backend-by5o.onrender.com
+frontend- https://recipe-hub-frontend-iyds.onrender.com
+backend- https://recipe-hub-backend-64bt.onrender.com
